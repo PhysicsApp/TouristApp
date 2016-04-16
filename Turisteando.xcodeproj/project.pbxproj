@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B36823E61CC1DF83001E4C91 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823E51CC1DF83001E4C91 /* SelectorViewController.swift */; };
+		B36823E81CC22E65001E4C91 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823E71CC22E65001E4C91 /* LoginViewController.swift */; };
+		B36823EA1CC27465001E4C91 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36823E91CC27465001E4C91 /* MapKit.framework */; };
+		B36823EC1CC27BA1001E4C91 /* AtraccionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823EB1CC27BA1001E4C91 /* AtraccionTableViewController.swift */; };
+		B36823EE1CC27C3A001E4C91 /* MainAtraccionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823ED1CC27C3A001E4C91 /* MainAtraccionTableViewCell.swift */; };
+		B36823F01CC27C69001E4C91 /* SecondaryAtraccionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823EF1CC27C69001E4C91 /* SecondaryAtraccionTableViewCell.swift */; };
+		B36823F21CC2A113001E4C91 /* EventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823F11CC2A113001E4C91 /* EventoViewController.swift */; };
+		B36823F41CC2A7D0001E4C91 /* FechasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823F31CC2A7D0001E4C91 /* FechasTableViewController.swift */; };
+		B36823F61CC2B2C8001E4C91 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823F51CC2B2C8001E4C91 /* RegistroViewController.swift */; };
+		B36823F81CC2BA57001E4C91 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36823F71CC2BA57001E4C91 /* TableViewCell.swift */; };
 		B3861BF71CC163570097546E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861BF61CC163570097546E /* AppDelegate.swift */; };
 		B3861BF91CC163570097546E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861BF81CC163570097546E /* ViewController.swift */; };
 		B3861BFC1CC163570097546E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3861BFA1CC163570097546E /* Main.storyboard */; };
 		B3861BFE1CC163570097546E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3861BFD1CC163570097546E /* Assets.xcassets */; };
 		B3861C011CC163570097546E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3861BFF1CC163570097546E /* LaunchScreen.storyboard */; };
 		B3861C0C1CC163570097546E /* TuristeandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C0B1CC163570097546E /* TuristeandoTests.swift */; };
+		B3861C181CC173440097546E /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C171CC173440097546E /* Usuario.swift */; };
+		B3861C1A1CC173D50097546E /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C191CC173D50097546E /* Categoria.swift */; };
+		B3861C1C1CC174340097546E /* Subcategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C1B1CC174340097546E /* Subcategoria.swift */; };
+		B3861C1E1CC1771B0097546E /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C1D1CC1771B0097546E /* Evento.swift */; };
+		B3861C231CC17C180097546E /* Atraccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C221CC17C180097546E /* Atraccion.swift */; };
+		B3861C251CC17CF20097546E /* InfoAtraccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C241CC17CF20097546E /* InfoAtraccion.swift */; };
+		B3861C291CC17ED50097546E /* Ubicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C281CC17ED50097546E /* Ubicacion.swift */; };
+		B3861C2B1CC180420097546E /* ModelosUtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3861C2A1CC180420097546E /* ModelosUtiles.swift */; };
+		B38A35AB1CC1A7BE00469D6F /* CityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A35AA1CC1A7BD00469D6F /* CityController.swift */; };
+		B38A35AD1CC1A9DD00469D6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A35AC1CC1A9DD00469D6F /* CoreLocation.framework */; };
+		B38A35B01CC1AD9D00469D6F /* GaleriaCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A35AF1CC1AD9D00469D6F /* GaleriaCelda.swift */; };
+		B38A35B21CC1B8BF00469D6F /* FullImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A35B11CC1B8BF00469D6F /* FullImageView.swift */; };
+		B3DE7E541CC1840E00ADF378 /* Ciudad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE7E531CC1840E00ADF378 /* Ciudad.swift */; };
+		B3DE7E561CC184CA00ADF378 /* Estado.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE7E551CC184CA00ADF378 /* Estado.swift */; };
+		B3DE7E581CC185DC00ADF378 /* Pais.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE7E571CC185DC00ADF378 /* Pais.swift */; };
+		B3DE7E5A1CC1878B00ADF378 /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DE7E591CC1878B00ADF378 /* App.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B3861BF31CC163570097546E /* Turisteando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turisteando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36823E51CC1DF83001E4C91 /* SelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
+		B36823E71CC22E65001E4C91 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B36823E91CC27465001E4C91 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B36823EB1CC27BA1001E4C91 /* AtraccionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtraccionTableViewController.swift; sourceTree = "<group>"; };
+		B36823ED1CC27C3A001E4C91 /* MainAtraccionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAtraccionTableViewCell.swift; sourceTree = "<group>"; };
+		B36823EF1CC27C69001E4C91 /* SecondaryAtraccionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryAtraccionTableViewCell.swift; sourceTree = "<group>"; };
+		B36823F11CC2A113001E4C91 /* EventoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoViewController.swift; sourceTree = "<group>"; };
+		B36823F31CC2A7D0001E4C91 /* FechasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechasTableViewController.swift; sourceTree = "<group>"; };
+		B36823F51CC2B2C8001E4C91 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B36823F71CC2BA57001E4C91 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B3861BF31CC163570097546E /* TouristApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouristApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3861BF61CC163570097546E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3861BF81CC163570097546E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3861BFB1CC163570097546E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,6 +72,22 @@
 		B3861C071CC163570097546E /* TuristeandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuristeandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3861C0B1CC163570097546E /* TuristeandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuristeandoTests.swift; sourceTree = "<group>"; };
 		B3861C0D1CC163570097546E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3861C171CC173440097546E /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		B3861C191CC173D50097546E /* Categoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		B3861C1B1CC174340097546E /* Subcategoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subcategoria.swift; sourceTree = "<group>"; };
+		B3861C1D1CC1771B0097546E /* Evento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		B3861C221CC17C180097546E /* Atraccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Atraccion.swift; path = ../Atraccion.swift; sourceTree = "<group>"; };
+		B3861C241CC17CF20097546E /* InfoAtraccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoAtraccion.swift; sourceTree = "<group>"; };
+		B3861C281CC17ED50097546E /* Ubicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ubicacion.swift; sourceTree = "<group>"; };
+		B3861C2A1CC180420097546E /* ModelosUtiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelosUtiles.swift; sourceTree = "<group>"; };
+		B38A35AA1CC1A7BD00469D6F /* CityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityController.swift; sourceTree = "<group>"; };
+		B38A35AC1CC1A9DD00469D6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B38A35AF1CC1AD9D00469D6F /* GaleriaCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleriaCelda.swift; sourceTree = "<group>"; };
+		B38A35B11CC1B8BF00469D6F /* FullImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageView.swift; sourceTree = "<group>"; };
+		B3DE7E531CC1840E00ADF378 /* Ciudad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ciudad.swift; sourceTree = "<group>"; };
+		B3DE7E551CC184CA00ADF378 /* Estado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estado.swift; sourceTree = "<group>"; };
+		B3DE7E571CC185DC00ADF378 /* Pais.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pais.swift; sourceTree = "<group>"; };
+		B3DE7E591CC1878B00ADF378 /* App.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = App.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36823EA1CC27465001E4C91 /* MapKit.framework in Frameworks */,
+				B38A35AD1CC1A9DD00469D6F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +113,8 @@
 		B3861BEA1CC163570097546E = {
 			isa = PBXGroup;
 			children = (
+				B36823E91CC27465001E4C91 /* MapKit.framework */,
+				B38A35AC1CC1A9DD00469D6F /* CoreLocation.framework */,
 				B3861BF51CC163570097546E /* Turisteando */,
 				B3861C0A1CC163570097546E /* TuristeandoTests */,
 				B3861BF41CC163570097546E /* Products */,
@@ -68,7 +124,7 @@
 		B3861BF41CC163570097546E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3861BF31CC163570097546E /* Turisteando.app */,
+				B3861BF31CC163570097546E /* TouristApp.app */,
 				B3861C071CC163570097546E /* TuristeandoTests.xctest */,
 			);
 			name = Products;
@@ -77,12 +133,17 @@
 		B3861BF51CC163570097546E /* Turisteando */ = {
 			isa = PBXGroup;
 			children = (
+				B38A35AE1CC1AD8800469D6F /* Vista */,
 				B3861BF61CC163570097546E /* AppDelegate.swift */,
 				B3861BF81CC163570097546E /* ViewController.swift */,
+				B38A35B11CC1B8BF00469D6F /* FullImageView.swift */,
 				B3861BFA1CC163570097546E /* Main.storyboard */,
+				B3DE7E591CC1878B00ADF378 /* App.storyboard */,
 				B3861BFD1CC163570097546E /* Assets.xcassets */,
 				B3861BFF1CC163570097546E /* LaunchScreen.storyboard */,
 				B3861C021CC163570097546E /* Info.plist */,
+				B38A35A91CC1A78700469D6F /* Controlador */,
+				B3861C161CC172B80097546E /* Models */,
 			);
 			path = Turisteando;
 			sourceTree = "<group>";
@@ -94,6 +155,49 @@
 				B3861C0D1CC163570097546E /* Info.plist */,
 			);
 			path = TuristeandoTests;
+			sourceTree = "<group>";
+		};
+		B3861C161CC172B80097546E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3861C171CC173440097546E /* Usuario.swift */,
+				B3861C241CC17CF20097546E /* InfoAtraccion.swift */,
+				B3861C191CC173D50097546E /* Categoria.swift */,
+				B3861C1B1CC174340097546E /* Subcategoria.swift */,
+				B3DE7E551CC184CA00ADF378 /* Estado.swift */,
+				B3DE7E571CC185DC00ADF378 /* Pais.swift */,
+				B3861C1D1CC1771B0097546E /* Evento.swift */,
+				B3DE7E531CC1840E00ADF378 /* Ciudad.swift */,
+				B3861C221CC17C180097546E /* Atraccion.swift */,
+				B3861C2A1CC180420097546E /* ModelosUtiles.swift */,
+				B3861C281CC17ED50097546E /* Ubicacion.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B38A35A91CC1A78700469D6F /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				B38A35AA1CC1A7BD00469D6F /* CityController.swift */,
+				B36823E51CC1DF83001E4C91 /* SelectorViewController.swift */,
+				B36823E71CC22E65001E4C91 /* LoginViewController.swift */,
+				B36823EB1CC27BA1001E4C91 /* AtraccionTableViewController.swift */,
+				B36823F11CC2A113001E4C91 /* EventoViewController.swift */,
+				B36823F31CC2A7D0001E4C91 /* FechasTableViewController.swift */,
+				B36823F51CC2B2C8001E4C91 /* RegistroViewController.swift */,
+			);
+			name = Controlador;
+			sourceTree = "<group>";
+		};
+		B38A35AE1CC1AD8800469D6F /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				B38A35AF1CC1AD9D00469D6F /* GaleriaCelda.swift */,
+				B36823ED1CC27C3A001E4C91 /* MainAtraccionTableViewCell.swift */,
+				B36823EF1CC27C69001E4C91 /* SecondaryAtraccionTableViewCell.swift */,
+				B36823F71CC2BA57001E4C91 /* TableViewCell.swift */,
+			);
+			name = Vista;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +217,7 @@
 			);
 			name = Turisteando;
 			productName = Turisteando;
-			productReference = B3861BF31CC163570097546E /* Turisteando.app */;
+			productReference = B3861BF31CC163570097546E /* TouristApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B3861C061CC163570097546E /* TuristeandoTests */ = {
@@ -179,6 +283,7 @@
 			files = (
 				B3861C011CC163570097546E /* LaunchScreen.storyboard in Resources */,
 				B3861BFE1CC163570097546E /* Assets.xcassets in Resources */,
+				B3DE7E5A1CC1878B00ADF378 /* App.storyboard in Resources */,
 				B3861BFC1CC163570097546E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +302,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36823E81CC22E65001E4C91 /* LoginViewController.swift in Sources */,
+				B38A35AB1CC1A7BE00469D6F /* CityController.swift in Sources */,
+				B3861C1E1CC1771B0097546E /* Evento.swift in Sources */,
+				B36823F01CC27C69001E4C91 /* SecondaryAtraccionTableViewCell.swift in Sources */,
+				B38A35B01CC1AD9D00469D6F /* GaleriaCelda.swift in Sources */,
+				B36823E61CC1DF83001E4C91 /* SelectorViewController.swift in Sources */,
+				B3DE7E541CC1840E00ADF378 /* Ciudad.swift in Sources */,
+				B3861C231CC17C180097546E /* Atraccion.swift in Sources */,
 				B3861BF91CC163570097546E /* ViewController.swift in Sources */,
+				B3861C1A1CC173D50097546E /* Categoria.swift in Sources */,
+				B36823EC1CC27BA1001E4C91 /* AtraccionTableViewController.swift in Sources */,
 				B3861BF71CC163570097546E /* AppDelegate.swift in Sources */,
+				B3861C1C1CC174340097546E /* Subcategoria.swift in Sources */,
+				B36823F61CC2B2C8001E4C91 /* RegistroViewController.swift in Sources */,
+				B3DE7E581CC185DC00ADF378 /* Pais.swift in Sources */,
+				B3861C291CC17ED50097546E /* Ubicacion.swift in Sources */,
+				B36823F21CC2A113001E4C91 /* EventoViewController.swift in Sources */,
+				B36823EE1CC27C3A001E4C91 /* MainAtraccionTableViewCell.swift in Sources */,
+				B3861C251CC17CF20097546E /* InfoAtraccion.swift in Sources */,
+				B3861C181CC173440097546E /* Usuario.swift in Sources */,
+				B36823F81CC2BA57001E4C91 /* TableViewCell.swift in Sources */,
+				B3861C2B1CC180420097546E /* ModelosUtiles.swift in Sources */,
+				B3DE7E561CC184CA00ADF378 /* Estado.swift in Sources */,
+				B38A35B21CC1B8BF00469D6F /* FullImageView.swift in Sources */,
+				B36823F41CC2A7D0001E4C91 /* FechasTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +458,7 @@
 				INFOPLIST_FILE = Turisteando/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tacos.Turisteando;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TouristApp;
 			};
 			name = Debug;
 		};
@@ -341,7 +469,7 @@
 				INFOPLIST_FILE = Turisteando/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tacos.Turisteando;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TouristApp;
 			};
 			name = Release;
 		};
@@ -388,6 +516,7 @@
 				B3861C121CC163570097546E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3861C131CC163570097546E /* Build configuration list for PBXNativeTarget "TuristeandoTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +525,7 @@
 				B3861C151CC163570097546E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
